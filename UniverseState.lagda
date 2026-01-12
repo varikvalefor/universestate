@@ -88,6 +88,11 @@ ConsciousData = {!!}
 \end{code}
 
 \section{le fancu / The Functions}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \F{tick}\ \B{s} \B{c}\ .zoi.\ co'e ja sinxa lo jalge lo nu cfari va'o lo co'e ja ke se sinxa be la'oi .\B{s}.\ fa lo se ke co'e ja velski be la'oi .\B{c}.\ kei je cu se lamli'e la'oi .\B{s}.
+
+\paragraph{English}
+\F{tick} \B{s} \B{c} represents/whatever the result of that (the stuff which is described/whatever by \B{c} happens ``in'' \B{s}).  The event of \F{tick} \B{s} \B{c} is immediately preceded by the event of \B{s}.
 
 \subsection{le temci fancu / The Time Function}
 
