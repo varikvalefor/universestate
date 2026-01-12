@@ -76,6 +76,11 @@ UniverseState = {!!}
 \end{code}
 
 \subsection{le se ctaipe be zo'e pe loi se zu'edji be lo prenu / The Type regarding Stuff which is Intended/Agentively-Decided by Prenu}
+\paragraph{la .lojban.}
+ni'o ro da poi ke'a se ctaipe la'oi zoi.\ \F{ConsciousData}\ .zoi.\ zo'u ro de poi ke'a co'e ja zu'edji lo ka ce'u xi re sikta lo le munje ku co'e zo'u da co'e ja co'e ja vasru lo velski lo se zu'edji be de
+
+\paragraph{English}
+For all values (of \F{ConsciousData}) $c$, for all prenu (which intend to affect the physical universe) $p$, $c$ contains/whatever a description of stuff which is intended by $p$.
 
 \begin{code}
 ConsciousData : Set
