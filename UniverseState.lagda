@@ -102,6 +102,27 @@ tick = {!!}
 \end{code}
 
 \subsection{le fancu pe lo nu facki lo du'u zu'edji ma kau / The Type for Determining the Stuff which is Intended by Prenu}
+\paragraph{la .lojban.}
+ni'o la'oi .\F{poll}.\ co'e ja sinxa lo se zu'edji be lo prenu poi curmi lo nu ke'a sitka le munje
+
+.i la .varik.\ cu pilno la'oi .\D{IO}.\ ki'u zo'e joi le su'u vo'a krici ga je\ldots
+
+\begin{itemize}
+	\item le du'u lo prenu na ro'onje kei no'u le su'u le munje cu co'e ja vasru lo prenu naje lo xadni be lo prenu gi ga je
+	\item le du'u lo prenu na me'oi .deterministic.\ gi
+	\item le su'u le munje cu jai me'oi .deterministic.
+\end{itemize}
+
+\paragraph{English}
+\F{poll} represents/whatever the stuff which is intended by prenu $p$ such that that ($p$ interacts with the universe) is permitted.
+
+That (VARIK uses \D{IO}) is relevant to that VARIK believes\ldots
+
+\begin{itemize}
+	\item that (prenu are immaterial) (which is that the universe ``contains'' the bodies of prenu but does not contain prenu),
+	\item that (prenu are not deterministic), and
+	\item that (the universe is deterministic).
+\end{itemize}
 
 \begin{code}
 poll : IO ConsciousData
