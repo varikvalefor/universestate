@@ -64,6 +64,11 @@ open import Codata.Musical.Notation
 
 \section{le se ctaipe / The Types}
 \subsection{le se ctaipe be lo munje zazyfau / The Type of Universe States}
+\paragraph{la .lojban.}
+ni'o ro da poi ke'a se ctaipe la'oi zoi.\ \F{UniverseState}\ .zoi.\ zo'u da broda cei ke me le re'enje munje me'o zazyfau ke'e ja cu sinxa lo broda noi mupli fa lo se detri be li pa so ze no pi'e pa pi'e pa pi'e no pi'e no pi'e no  .i srana zo'e je lo se zvati be lo ratni
+
+\paragraph{English}
+For all values (of \F{UniverseState}) $c$, $c$ is a physical universe state or represents a state in the physical universe.  An example of a state is the situation of 10700101000000.  The stuff is relevant to locations (of atoms) and whatnot.
 
 \begin{code}
 UniverseState : Set
