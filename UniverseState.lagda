@@ -27,6 +27,13 @@
 
 \maketitle
 
+\section{le me'oi .abstract.}
+\paragraph{la .lojban.}
+ni'o la .varik.\ cu ciksi ja skicu bau la'oi .Agda. joi la .lojban.\ fo le ko'a goi te tcidu fe le si'o lo prenu cu sikta lo le ro'onje munje ku co'e kei vo'a\sds  .i la .varik.\ cu troci lo nu ko'a jai filri'a lo nu jimpe fi lo se krici be vo'a kei kei jenai lo nu bitygau lo prenu jenai du be vo'a
+
+\paragraph{English}
+VARIK defines/describes (via the combination of Agda and English) the idea (of VARIK) regarding that prenu interact with the physical universe.  The explanation is the document.  VARIK attempts that the document facilitates that prenu understand about the stuff which is believed by VARIK.  VARIK does not attempt that the document convinces prenu which are not VARIK.
+
 \section{le me'oi .disclaimer.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu skicu le se krici be vo'a\sds  .i na mabla ja tolvu'e fa lo nu toltu'i
@@ -77,13 +84,13 @@ UniverseState = {!!}
 
 \subsection{le se ctaipe be zo'e pe loi se zu'edji be lo prenu / The Type regarding Stuff which is Intended/Agentively-Decided by Prenu}
 \paragraph{la .lojban.}
-ni'o ro da poi ke'a se ctaipe la'oi zoi.\ \F{ConsciousData}\ .zoi.\ zo'u ro de poi ke'a co'e ja zu'edji lo ka ce'u xi re sikta lo le munje ku co'e zo'u da co'e ja co'e ja vasru lo velski lo se zu'edji be de
+ni'o ro da poi ke'a se ctaipe la'oi zoi.\ \F{ConsciousData} \B{s}\ .zoi.\ zo'u ro de poi ke'a co'e ja zu'edji lo ka ce'u xi re sikta lo le munje ku co'e pe la'oi .\B{s}.\ zo'u da co'e ja co'e ja vasru lo velski lo se zu'edji be de
 
 \paragraph{English}
-For all values (of \F{ConsciousData}) $c$, for all prenu (which intend to affect the physical universe) $p$, $c$ contains/whatever a description of stuff which is intended by $p$.
+For all values (of \F{ConsciousData} \B{s}) $c$, for all prenu (which intend to affect the physical universe) $p$, $c$ contains/whatever a description of stuff which is intended (``under''/``immediately-after'' the universe state of \B{s}) by $p$.
 
 \begin{code}
-ConsciousData : Set
+ConsciousData : UniverseState → Set
 ConsciousData = {!!}
 \end{code}
 
@@ -101,13 +108,13 @@ ni'o la'o zoi.\ \F{tick}\ \B{s} \B{c}\ .zoi.\ co'e ja sinxa lo jalge lo nu cfari
 VARIK believes that physical universe time is discrete.
 
 \begin{code}
-tick : UniverseState → ConsciousData → UniverseState
+tick : (s : UniverseState) → ConsciousData s → UniverseState
 tick = {!!}
 \end{code}
 
 \subsection{le fancu pe lo nu facki lo du'u zu'edji ma kau / The Type for Determining the Stuff which is Intended by Prenu}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{poll}.\ co'e ja sinxa lo se zu'edji be lo prenu poi curmi lo nu ke'a sikta le munje... be'o je cu jai filri'a tu'a la'oi .\F{tick}.
+ni'o la'o zoi.\ \F{poll} \B{s}\ .zoi.\ co'e ja sinxa lo se zu'edji be va'o la'oi .\B{s}.\ bei fe lo prenu poi curmi lo nu ke'a sikta le munje... be'o je cu jai filri'a tu'a la'oi .\F{tick}.
 
 .i la .varik.\ cu pilno la'oi .\D{IO}.\ ki'u zo'e joi le su'u vo'a krici ga je\ldots
 
@@ -118,7 +125,7 @@ ni'o la'oi .\F{poll}.\ co'e ja sinxa lo se zu'edji be lo prenu poi curmi lo nu k
 \end{itemize}
 
 \paragraph{English}
-\F{poll} represents/whatever the stuff which is intended by prenu $p$ such that that ($p$ interacts with the universe) is permitted.  Additionally, \F{poll} facilitates ``using'' \F{tick}.
+\F{poll} \B{s} represents/whatever the stuff which is intended (``under'' $s$) by prenu $p$ such that that ($p$ interacts with the universe) is permitted.  Additionally, \F{poll} facilitates ``using'' \F{tick}.
 
 That (VARIK uses \D{IO}) is relevant to that VARIK believes\ldots
 
@@ -129,7 +136,7 @@ That (VARIK uses \D{IO}) is relevant to that VARIK believes\ldots
 \end{itemize}
 
 \begin{code}
-poll : IO ConsciousData
+poll : (s : UniverseState) → IO $ ConsciousData s
 poll = {!!}
 \end{code}
 
@@ -148,6 +155,6 @@ munje : IO UniverseState
 munje = lupe x0
   where
   lupe : UniverseState → IO UniverseState
-  lupe x = poll IO.>>= (lupe Function.∘ tick x)
+  lupe x = poll x IO.>>= (lupe Function.∘ tick x)
 \end{code}
 \end{document}
