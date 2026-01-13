@@ -147,10 +147,7 @@ x0 = {!!}
 munje : IO UniverseState
 munje = lupe x0
   where
-  -- ni'o me'oi .bind. co'e ki'u zo'e joi le su'u ctaipe
-  -- mabla va'o tu'a la'o zoi. IO._>>=_ .zoi.
-  -- .i la .varik. cu jijyji'i le du'u srera tu'a le proga
   lupe : UniverseState → IO UniverseState
-  lupe x = IO.bind (♯ poll) $ λ p → ♯ lupe (tick x p)
+  lupe x = poll IO.>>= (lupe Function.∘ tick x)
 \end{code}
 \end{document}
