@@ -56,10 +56,6 @@ open import Function
   using (
     _$_
   )
-open import Codata.Musical.Notation
-  using (
-    ♯_
-  )
 \end{code}
 
 \section{le se ctaipe / The Types}
