@@ -12,6 +12,7 @@
 
 \newunicodechar{λ}{\ensuremath{\mathnormal\lambda}}
 \newunicodechar{♯}{\ensuremath{\mathnormal\sharp}}
+\newunicodechar{∘}{\ensuremath{\mathnormal\cdot}}
 
 \newcommand\Sym\AgdaSymbol
 \newcommand\D\AgdaDatatype
