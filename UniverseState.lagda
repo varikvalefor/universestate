@@ -107,7 +107,7 @@ tick = {!!}
 
 \subsection{le fancu pe lo nu facki lo du'u zu'edji ma kau / The Type for Determining the Stuff which is Intended by Prenu}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{poll}.\ co'e ja sinxa lo se zu'edji be lo prenu poi curmi lo nu ke'a sitka le munje... be'o je cu jai filri'a tu'a la'oi .\F{tick}.
+ni'o la'oi .\F{poll}.\ co'e ja sinxa lo se zu'edji be lo prenu poi curmi lo nu ke'a sikta le munje... be'o je cu jai filri'a tu'a la'oi .\F{tick}.
 
 .i la .varik.\ cu pilno la'oi .\D{IO}.\ ki'u zo'e joi le su'u vo'a krici ga je\ldots
 
