@@ -140,7 +140,7 @@ x0 : UniverseState
 x0 = {!!}
 \end{code}
 
-\section{le ralju / The Thing which is Primary}
+\section{le mupli / The Example}
 
 \begin{code}
 {-# NON_TERMINATING #-}
