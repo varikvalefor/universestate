@@ -112,10 +112,17 @@ tick = {!!}
 \end{code}
 
 \subsection{le fancu pe lo nu facki lo du'u zu'edji ma kau / The Type for Determining the Stuff which is Intended by Prenu}
+
+\subsubsection{le co'e ja te pilno / The Purpose}
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \F{poll} \B{s}\ .zoi.\ co'e ja sinxa lo se zu'edji be va'o la'oi .\B{s}.\ bei fe lo prenu poi curmi lo nu ke'a sikta le munje... be'o je cu jai filri'a tu'a la'oi .\F{tick}.
 
-.i la .varik.\ cu pilno la'oi .\D{IO}.\ ki'u zo'e joi le su'u vo'a krici ga je\ldots
+\paragraph{English}
+\F{poll} \B{s} represents/whatever the stuff which is intended (``under'' $s$) by prenu $p$ such that that ($p$ interacts with the universe) is permitted.  Additionally, \F{poll} facilitates ``using'' \F{tick}.
+
+\subsubsection{le su'u pilno la'oi .\D{IO}.\ / Using \D{IO}}
+\paragraph{la .lojban.}
+ni'o la .varik.\ cu pilno la'oi .\D{IO}.\ ki'u zo'e joi le su'u vo'a krici ga je\ldots
 
 \begin{itemize}
 	\item le du'u lo prenu na ro'onje kei no'u le su'u le munje cu co'e ja vasru lo prenu naje lo xadni be lo prenu gi ga je
@@ -124,8 +131,6 @@ ni'o la'o zoi.\ \F{poll} \B{s}\ .zoi.\ co'e ja sinxa lo se zu'edji be va'o la'oi
 \end{itemize}
 
 \paragraph{English}
-\F{poll} \B{s} represents/whatever the stuff which is intended (``under'' $s$) by prenu $p$ such that that ($p$ interacts with the universe) is permitted.  Additionally, \F{poll} facilitates ``using'' \F{tick}.
-
 That (VARIK uses \D{IO}) is relevant to that VARIK believes\ldots
 
 \begin{itemize}
@@ -133,6 +138,8 @@ That (VARIK uses \D{IO}) is relevant to that VARIK believes\ldots
 	\item that (prenu are not deterministic), and
 	\item that (the universe is deterministic).
 \end{itemize}
+
+\subsubsection{le velcki co'e / The Definition Thing}
 
 \begin{code}
 poll : (s : UniverseState) → IO $ ConsciousData s
