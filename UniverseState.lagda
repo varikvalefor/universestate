@@ -31,10 +31,10 @@
 
 \section{le me'oi .abstract.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu ciksi ja skicu bau la'oi .Agda. joi la .lojban.\ fo le ko'a goi te tcidu fe le si'o lo prenu cu sikta lo le ro'onje munje ku co'e kei vo'a\sds  .i la .varik.\ cu troci lo nu ko'a jai filri'a lo nu jimpe fi lo se krici be vo'a kei kei jenai lo nu bitygau lo prenu jenai du be vo'a
+ni'o la .varik.\ cu ciksi ja skicu bau la'oi .Agda.\ joi la .lojban.\ fo le ko'a goi te tcidu fe le si'o lo prenu cu sikta lo le ro'onje munje ku co'e kei vo'a\sds  .i la .varik.\ cu troci ga je lo nu ko'a jai filri'a lo nu jimpe fi lo se krici be vo'a kei kei jenai lo nu bitygau lo prenu jenai du be vo'a gi lo nu lo na'e mutce be lo ka ce'u xi re slabu la'oi .Agda.\ be'o je prenu cu ka'e jimpe fi ko'a
 
 \paragraph{English}
-VARIK defines/describes (via the combination of Agda and English) the idea (of VARIK) regarding that prenu interact with the physical universe.  The explanation is the document.  VARIK attempts that the document facilitates that prenu understand about the stuff which is believed by VARIK.  VARIK does not attempt that the document convinces prenu which are not VARIK.
+VARIK defines/describes (via the combination of Agda and English) the idea (of VARIK) regarding that prenu interact with the physical universe.  The explanation is the document.  VARIK attempts that the document facilitates that prenu understand about the stuff which is believed by VARIK.  VARIK does not attempt that the document convinces prenu which are not VARIK.  But VARIK does attempt that prenu which are not very-familiar with Agda are capable of understanding the document.
 
 \section{le me'oi .disclaimer.}
 \paragraph{la .lojban.}
