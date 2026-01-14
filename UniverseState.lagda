@@ -13,6 +13,7 @@
 \newunicodechar{λ}{\ensuremath{\mathnormal\lambda}}
 \newunicodechar{♯}{\ensuremath{\mathnormal\sharp}}
 \newunicodechar{∘}{\ensuremath{\mathnormal\circ}}
+\newunicodechar{₀}{\ensuremath{\mathnormal{{}_0}}}
 
 \newcommand\Sym\AgdaSymbol
 \newcommand\D\AgdaDatatype
@@ -147,11 +148,11 @@ poll = {!!}
 ni'o la'oi .\F{x0}.\ sinxa ko'a goi le pa moi be lo'i ro le munje ku zazyfau\sds  .i la .varik.\ cu krici le du'u tolsti tu'a le munje\sds  .i ku'i la .varik.\ na birti lo du'u ko'a mo kau\sds  .i zo'e joi la'e di'u krinu le su'u la .varik.\ na ciksi la'oi .\F{x0}.
 
 \paragraph{English}
-\F{x0} represents the 1st state of the physical universe.  VARIK believes that the universe begins.  But VARIK is not certain about the nature of the 1st state of the physical universe.  Being uncertain is a part of the justification of that VARIK does not define \F{x0}.
+\F{x₀} represents the 1st state of the physical universe.  VARIK believes that the universe begins.  But VARIK is not certain about the nature of the 1st state of the physical universe.  Being uncertain is a part of the justification of that VARIK does not define \F{x₀}.
 
 \begin{code}
-x0 : UniverseState
-x0 = {!!}
+x₀ : UniverseState
+x₀ = {!!}
 \end{code}
 
 \section{le mupli / The Example}
@@ -159,7 +160,7 @@ x0 = {!!}
 \begin{code}
 {-# NON_TERMINATING #-}
 munje : IO UniverseState
-munje = lupe x0
+munje = lupe x₀
   where
   lupe : UniverseState → IO UniverseState
   lupe x = poll x IO.>>= (lupe ∘ tick x)
