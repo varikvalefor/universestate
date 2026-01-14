@@ -62,6 +62,7 @@ open import Level
   )
 open import Function
   using (
+    _∘_;
     _$_
   )
 \end{code}
@@ -156,6 +157,6 @@ munje : IO UniverseState
 munje = lupe x0
   where
   lupe : UniverseState → IO UniverseState
-  lupe x = poll x IO.>>= (lupe Function.∘ tick x)
+  lupe x = poll x IO.>>= (lupe ∘ tick x)
 \end{code}
 \end{document}
