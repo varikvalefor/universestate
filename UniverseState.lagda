@@ -45,6 +45,27 @@ ni'o la .varik.\ cu skicu le se krici be vo'a\sds  .i na mabla ja tolvu'e fa lo 
 \paragraph{English}
 VARIK describes the stuff which is believed by VARIK.  Disagreeing is not fucked or immoral.
 
+\section{le to'e banzu je torveki / The Summary\ldots which is Inadequate}
+\paragraph{la .lojban.}
+ni'o la .varik.\ cu krici ga je\ldots
+\begin{itemize}
+	\item le du'u lo le munje ku co'e cu broda cei me'oi .deterministic.\ gi ga je
+	\item le du'u lo prenu na jai broda gi ga je
+	\item le du'u lo prenu cu ka'e sikta lo le munje ku co'e gi ga je
+	\item le du'u ro da poi ke'a me le munje me'o zazyfau zo'u su'o de poi ke'a me le munje me'o zazyfau zo'u lo no me le munje me'o zazyfau cu se lidne da je cu lidne de gi
+	\item le su'u lo su'u lo prenu su sikta lo le munje ku co'e cu smimlu tu'a la'oi .\D{IO}.\ pe la'oi .Agda.
+\end{itemize}
+
+\paragraph{English}
+VARIK believes\ldots
+\begin{itemize}
+	\item that (physical universe stuff is deterministic),
+	\item that (prenu are not deterministic),
+	\item that (prenu are capable of interacting with the physical universe),
+	\item that (for all physical universe states $s$, a physical universe state $s_2$ exists such that no physical universe state $s_1$ exists such that $s_1$ is preceded by $s$ and precedes $s_2$), and
+	\item that (that (prenu interact with the physical universe) resembles \D{IO} of Agda).
+\end{itemize}
+
 \section{le vrici / The Miscellaneous}
 
 \begin{code}
