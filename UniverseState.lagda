@@ -68,13 +68,19 @@ VARIK believes\ldots
 
 \section{le vrici / The Miscellaneous}
 
+\subsection{tu'a ko'a goi zoi zoi.\ \texttt{--guardedness}\ .zoi.}
+
 \begin{code}
 {-# OPTIONS --guardedness #-}
 \end{code}
 
+\subsection{tu'a ko'a goi zoi zoi.\ \texttt{--safe}\ .zoi.}
+
 \begin{code}
 -- {-# OPTIONS --safe #-}
 \end{code}
+
+\subsection{le se me'oi .importe / The Stuff which is Imported}
 
 \begin{code}
 open import IO
