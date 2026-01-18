@@ -199,10 +199,10 @@ x₀ = {!!}
 
 \section{le mupli / The Example}
 \paragraph{la .lojban.}
-ni'o la \F{munje} cu jai .indika fi lo su'u co'e lo se sinxa be la'oi .\F{poll}.\ be'o je lo se sinxa be la'oi .\F{tick}.\ldots kei fe le su'u le munje cu jai pruce lo se zu'edji co'e joi lo le munje ku zazyfau
+ni'o la \F{munje} cu jai .indika fi le si'o co'e lo se sinxa be la'oi .\F{poll}.\ be'o je lo se sinxa be la'oi .\F{tick}.\ldots kei fe le su'u le munje cu jai pruce lo se zu'edji co'e joi lo le munje ku zazyfau
 
 \paragraph{English}
-\F{munje} indicates about the stuff (which is represented by \F{poll}) and the stuff which is represented by \F{tick}.  \F{munje} indicates that the universe is a process, and the input is a combination of the data (regarding stuff which is desired/agentively-intended by prenu) and universe states.
+\F{munje} indicates about the stuff (which is represented by \F{poll}) and the stuff which is represented by \F{tick}.  \F{munje} indicates about the idea of that (the universe is a process, and the input is a combination of the data (regarding stuff which is desired/agentively-intended by prenu) and universe states).
 
 \begin{code}
 {-# NON_TERMINATING #-}
