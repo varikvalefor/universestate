@@ -69,12 +69,22 @@ VARIK believes\ldots
 \section{le vrici / The Miscellaneous}
 
 \subsection{tu'a ko'a goi zoi zoi.\ \texttt{--guardedness}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o zoi zoi.\ \texttt{--guardedness}\ .zoi.\ jai sarcu tu'a la'oi .\D{IO}.
+
+\paragraph{English}
+\texttt{--guardedness} is necessary for using \D{IO}.
 
 \begin{code}
 {-# OPTIONS --guardedness #-}
 \end{code}
 
 \subsection{tu'a ko'a goi zoi zoi.\ \texttt{--safe}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la .varik.\ cu djica lo nu ko'a mapti lo ro me'oi .Agda.\ co'e je se zbasu be vo'a\sds  .i ku'i zoi zoi.\ \texttt{--guardedness}\ .zoi.\ jai tolmapti ko'a
+
+\paragraph{English}
+VARIK diesres that all Agda stuff which is created by VARIK is compatible with \texttt{--safe}.  But \texttt{--guardedness} is incompatible with \texttt{--safe}.
 
 \begin{code}
 -- {-# OPTIONS --safe #-}
