@@ -70,10 +70,10 @@ VARIK believes\ldots
 
 \subsection{tu'a ko'a goi zoi zoi.\ \texttt{--guardedness}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o zoi zoi.\ \texttt{--guardedness}\ .zoi.\ jai sarcu tu'a la'oi .\D{IO}.
+ni'o la .varik.\ cu jinvi le du'u zoi zoi.\ \texttt{--guardedness}\ .zoi.\ jai sarcu tu'a la'oi .\D{IO}.
 
 \paragraph{English}
-\texttt{--guardedness} is necessary for using \D{IO}.
+VARIK opines that \texttt{--guardedness} is necessary for using \D{IO}.
 
 \begin{code}
 {-# OPTIONS --guardedness #-}
