@@ -97,9 +97,6 @@ open import IO
   using (
     IO
   )
-open import Level
-  using (
-  )
 open import Function
   using (
     _∘_;
