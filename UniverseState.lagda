@@ -151,7 +151,7 @@ tick = {!!}
 
 \subsubsection{le co'e ja te pilno / The Purpose}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{poll} \B{s}\ .zoi.\ co'e ja sinxa lo se zu'edji be va'o la'oi .\B{s}.\ bei fe lo prenu poi curmi lo nu ke'a sikta le munje... be'o je cu jai filri'a tu'a la'oi .\F{tick}.
+ni'o la'o zoi.\ \F{poll} \B{s}\ .zoi.\ co'e ja sinxa lo se zu'edji be va'o la'oi .\B{s}.\ bei fe lo prenu poi curmi lo nu ke'a sikta le munje\ldots be'o je cu jai filri'a tu'a la'oi .\F{tick}.
 
 \paragraph{English}
 \F{poll} \B{s} represents/whatever the stuff which is intended (``under'' $s$) by prenu $p$ such that that ($p$ interacts with the universe) is permitted.  Additionally, \F{poll} facilitates ``using'' \F{tick}.
