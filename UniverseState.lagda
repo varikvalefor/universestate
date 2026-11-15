@@ -107,7 +107,7 @@ open import Function
 \section{le se ctaipe / The Types}
 \subsection{le se ctaipe be lo munje zazyfau / The Type of Universe States}
 \paragraph{la .lojban.}
-ni'o ro da poi ke'a se ctaipe la'oi zoi.\ \F{UniverseState}\ .zoi.\ zo'u da broda cei ke me le re'enje munje me'o zazyfau ke'e ja cu sinxa lo broda noi mupli fa lo se detri be li pa so ze no pi'e pa pi'e pa pi'e no pi'e no pi'e no\sds  .i srana zo'e je lo se zvati be lo ratni
+ni'o ro da poi ke'a se ctaipe la'oi .\F{UniverseState}.\ zo'u da broda cei ke me le re'enje munje me'o zazyfau ke'e ja cu sinxa lo broda noi mupli fa lo se detri be li pa so ze no pi'e pa pi'e pa pi'e no pi'e no pi'e no\sds  .i srana zo'e je lo se zvati be lo ratni
 
 .i la .varik.\ cu jinvi le du'u cumki fa lo nu ciksi la'oi .\F{UniverseState}.\ldots kei goi ko'a kei je le du'u ko'a mutce le ka ce'u pluja
 
