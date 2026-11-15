@@ -163,7 +163,7 @@ ni'o la .varik.\ cu pilno la'oi .\D{IO}.\ ki'u zo'e joi le su'u vo'a krici ga je
 \begin{itemize}
 	\item le du'u lo prenu na ro'onje kei no'u le su'u le munje cu co'e ja vasru lo prenu naje lo xadni be lo prenu gi ga je
 	\item le du'u lo prenu na me'oi .deterministic.\ gi
-	\item le su'u le munje cu jai me'oi .deterministic.
+	\item le du'u le munje cu jai me'oi .deterministic.
 \end{itemize}
 
 \paragraph{English}
